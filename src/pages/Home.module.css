@@ -1,0 +1,57 @@
+/* src/pages/Home.module.css */
+
+/* The Wrapper stretches 100% across the screen */
+.heroWrapper {
+  width: 100%;
+  min-height: calc(100vh - 80px);
+  background-color: #121214; /* Match your preferred background exactly */
+  
+  /* Center the inner container vertically and horizontally */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* The Container protects the text from getting too wide */
+.heroContainer {
+  max-width: 1000px;
+  width: 90%; /* Leaves a nice 10% safety margin on mobile screens */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Keep your h1, p, and ctaButton styles exactly the same as before */
+.heroContainer h1 {
+  font-size: 3.5rem; 
+  line-height: 1.2; 
+  letter-spacing: -0.02em; 
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+}
+
+.heroContainer p {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: #a1a1aa;
+  max-width: 600px;
+  margin-bottom: 2.5rem;
+}
+
+.ctaButton {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 0.85rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.ctaButton:hover {
+  background-color: #2563eb;
+  transform: translateY(-2px);
+}
