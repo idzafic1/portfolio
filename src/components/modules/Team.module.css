@@ -1,0 +1,57 @@
+.teamSection {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 2rem;
+  text-align: center;
+  background-color: #121214;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.subtitle {
+  color: #a1a1aa;
+  font-size: 1.1rem;
+  margin-bottom: 4rem;
+}
+
+.teamGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+
+.memberCard {
+  background-color: #1a1a1e;
+  padding: 2rem;
+  border-radius: 12px;
+  border: 1px solid #2a2a30;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Placeholder box for team avatars */
+.avatarPlaceholder {
+  width: 100px;
+  height: 100px;
+  background-color: #2a2a30;
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+}
+
+.memberCard h3 {
+  font-size: 1.25rem;
+  color: #ffffff;
+  margin-bottom: 0.25rem;
+}
+
+.role {
+  color: #3b82f6; /* Blue tag color for responsibilities */
+  font-size: 0.9rem;
+  font-weight: 500;
+}
